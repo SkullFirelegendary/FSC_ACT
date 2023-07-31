@@ -12,6 +12,7 @@ body{
 
 .Company_name img{
     width: 100px;
+    display: block;
 }
 
 .Company_name font{
@@ -102,7 +103,7 @@ a{
 @media screen and (max-width: 480px), (max-width:720px){
     .Company_name font{
         display: inline-block;
-        font-size: 50%;
+        font-size: 100%;
     }
 
     a .menu_buttons{
