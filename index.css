@@ -19,7 +19,6 @@ body{
     font-size: 32px;
     position: relative;
     bottom: 30px;
-    display: inline-block;
 
 }
 .container{
@@ -102,6 +101,6 @@ a{
 
 @media screen and (max-width: 480px){
     .Company_name font{
-        font-size: 100%;
+        font-size: 90%;
     }
 }
