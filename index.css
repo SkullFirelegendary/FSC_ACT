@@ -1,0 +1,106 @@
+@import url('https://fonts.cdnfonts.com/css/federal-service');
+@import url('https://fonts.cdnfonts.com/css/eurostile-extended');
+
+*{
+    color:white ;
+    font-family:'Federal Service Academy', sans-serif ;
+}
+
+body{
+    background-color: #0077b6;
+}
+
+.Company_name img{
+    width: 100px;
+}
+
+.Company_name font{
+    text-shadow: 2px 2px black;
+    font-size: 32px;
+    position: relative;
+    bottom: 30px;
+
+}
+.container{
+    text-align: left;
+
+}
+li{
+    list-style: none;
+    position: relative; 
+    top: 10px;
+}
+
+.menu{
+    background-color: #82EEFD;
+    width: 100%;
+    height: 50px;
+}
+
+a .menu_buttons{
+   color: black; 
+   background-color: #FAF9F6;
+    border-radius: 5px;
+    font-size: 1.3em;
+    margin-left: 2%;
+   transition-delay: 0.5s;
+}
+
+a .menu_buttons:hover{
+    color: #82eefd;
+    background-color: black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+text{
+    text-shadow: none;
+    font-family: 'Eurostile Medium',sans-serif;
+    font-size: 1.7em;
+}
+text b{
+    color: aqua;
+    font-family: 'Rollbox', sans-serif;
+    text-align: left;
+}
+
+ a .View_Act{
+    color: black;
+    position: relative;
+    top: 50px;
+    margin-left: 42%;
+    width: 200px;
+    transition-delay: 1s;
+    border-width: 4px;
+    align-items: center;
+}
+
+ a .View_Act:hover{
+    color: #FAF9F6;
+    background-color: blue;
+    width: 0 17%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    position:relative; top: 60%;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 680px){
+    .Company_name font{
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .Company_name font{
+        font-size: 100%;
+    }
+}
