@@ -12,10 +12,11 @@ body{
 
 .Company_name img{
     width: 100px;
-    display: block;
+    display:block;
 }
 
 .Company_name font{
+    display: inline-block;
     text-shadow: 2px 2px black;
     font-size: 150%;
     position: relative;
