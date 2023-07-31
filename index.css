@@ -19,6 +19,7 @@ body{
     font-size: 32px;
     position: relative;
     bottom: 30px;
+    display: inline-block;
 
 }
 .container{
