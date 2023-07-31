@@ -102,7 +102,7 @@ a{
 @media screen and (max-width: 480px), (max-width:720px){
     .Company_name font{
         display: inline-block;
-        font-size: 60%;
+        font-size: 50%;
     }
 
     a .menu_buttons{
