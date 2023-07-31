@@ -126,4 +126,10 @@ a{
             position: relative;
             bottom:20px;
             left: 80px;
+        }
+        .container a{
+            display: block;
+            align-content: center;
+            text-align: center;
+        }
 }
