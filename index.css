@@ -16,7 +16,7 @@ body{
 
 .Company_name font{
     text-shadow: 2px 2px black;
-    font-size: 32px;
+    font-size: 150%;
     position: relative;
     bottom: 30px;
 
@@ -28,7 +28,7 @@ body{
 li{
     list-style: none;
     position: relative; 
-    top: 10px;
+    top: 13px;
 }
 
 .menu{
@@ -93,14 +93,19 @@ a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 680px){
+@media screen and (max-width: 480px), (max-width:720px){
     .Company_name font{
-        font-size: 150%;
+        font-size: 100%;
     }
-}
 
-@media screen and (max-width: 480px){
-    .Company_name font{
-        font-size: 90%;
+    a .menu_buttons{
+        font-size:medium;
+        position: relative;
+        top: 1px;
+    }
+
+    a .View_Act{
+        position: relative;
+        margin-left: 110;
     }
 }
