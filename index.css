@@ -93,7 +93,7 @@ a{
     text-decoration: none;
 }
 
-@media screen and (max-width: 480px), (max-width:720px), (max-width:240px){
+@media screen and (max-width: 480px), (max-width:720px){
     .Company_name font{
         font-size: 100%;
     }
@@ -106,13 +106,13 @@ a{
 
     a .View_Act{
         position: relative;
-        margin-left: 00;
+        margin-left: 110;
     }
 }
 
-/* @media   {
+@media screen and (max-width:240px) {
     a .View_Act{
         position: relative;
         margin-right: 200px;
     }
-} */
+} 
