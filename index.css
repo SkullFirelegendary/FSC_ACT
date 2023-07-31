@@ -113,4 +113,9 @@ a{
         text-align: center;
         padding-bottom: 30;
     }
+    .container a{
+        display: block;
+        align-content: center;
+        text-align: center;
+    }
 }
