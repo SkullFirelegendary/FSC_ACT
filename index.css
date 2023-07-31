@@ -81,6 +81,8 @@ text b{
     transition-delay: 1s;
     border-width: 4px;
     align-items: center;
+    display: block;
+    align-content: center;
 }
 
  a .View_Act:hover{
@@ -116,20 +118,10 @@ a{
         text-align: center;
         padding-bottom: 30;
     }
-    .container a{
-        display: block;
-        align-content: center;
-        text-align: center;
-    }
     @media screen and (min-width:180px){
         .Company_name font{
             position: relative;
             bottom:20px;
             left: 80px;
-        }
-        .container a{
-            display: block;
-            align-content: center;
-            text-align: center;
         }
 }
