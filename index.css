@@ -121,4 +121,9 @@ a{
         align-content: center;
         text-align: center;
     }
+    @media screen and (min-width:180px){
+        .Company_name font{
+            position: relative;
+            top:20px;
+            right: 30px;
 }
