@@ -109,3 +109,10 @@ a{
         margin-left: 110;
     }
 }
+
+@media  (max-width:240px) {
+    a .View_Act{
+        position: relative;
+        margin-left: 70;
+    }
+}
