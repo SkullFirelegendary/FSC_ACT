@@ -23,7 +23,6 @@ body{
 }
 .container{
     text-align: left;
-
 }
 li{
     list-style: none;
@@ -66,7 +65,7 @@ text b{
     text-align: left;
 }
 
-.container{
+.container a{
     display: block;
     align-content: center;
     text-align: center;
@@ -112,6 +111,6 @@ a{
     }
     .menu{
         text-align: center;
-        padding-bottom: 35;
+        padding-bottom: 30;
     }
 }
