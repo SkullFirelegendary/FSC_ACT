@@ -118,10 +118,10 @@ a{
         text-align: center;
         padding-bottom: 30;
     }
-    @media screen and (max-width:180px){
+/*     @media screen and (max-width:180px){
         .Company_name font{
             position: relative;
             bottom:20px;
             left: 80px;
         }
-}
+} */
