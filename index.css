@@ -100,6 +100,34 @@ a{
     text-decoration: none;
 }
 
+@media screen and (max-width:481px)
+{
+    a .menu_buttons{
+        font-size:medium;
+    }
+    .menu{
+        text-align: center;
+        padding-bottom: 35;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .Company_name font{
+        font-size: 70%; 
+        position: relative;
+        bottom:30px;
+        left: 80px;
+    }
+    a .menu_buttons{
+        font-size:medium;
+    }
+    .menu{
+        text-align: center;
+        padding-bottom: 35;
+    }
+}
+/* 
 @media screen and (min-width:480px) {
     .Company_name font{
         font-size: 70%;
@@ -114,3 +142,4 @@ a{
     }
     
 }
+ */
