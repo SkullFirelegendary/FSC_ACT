@@ -79,7 +79,7 @@ text b{
     width: 200px;
     transition-delay: 1s;
     border-width: 4px;
-    align-content: center;
+    text-align: center;
 }
 
  a .View_Act:hover{
@@ -119,4 +119,7 @@ a{
         bottom:28px;
         left: 10px;
     }
+    a .View_Act{
+        position:relative;
+        left 45px
 }
