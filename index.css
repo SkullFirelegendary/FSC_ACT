@@ -100,7 +100,7 @@ a{
     text-decoration: none;
 }
 
-@media screen and (max-width:481px)
+@media screen and (max-width:531px)
 {
     a .menu_buttons{
         font-size:medium;
@@ -112,7 +112,7 @@ a{
     
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:560px) {
     .Company_name font{
         font-size: 70%; 
         position: relative;
