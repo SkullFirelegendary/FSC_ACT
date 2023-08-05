@@ -116,8 +116,9 @@ a{
         bottom:28px;
         left: 10px;
     }
-/*     a .View_Act{
+    a .View_Act{
+        margin: 0 90px ;
         position:relative;
-        left: 90px;
-} */
+/*         left: ;  */
+    }
 }
