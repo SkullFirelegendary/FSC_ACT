@@ -21,10 +21,7 @@ body{
     bottom: 30px;
 
 }
-.container{
-    text-align: left;
 
-}
 li{
     list-style: none;
     position: relative; 
@@ -119,7 +116,8 @@ a{
         bottom:28px;
         left: 10px;
     }
-    a .View_Act{
+/*     a .View_Act{
         position:relative;
         left: 90px;
+} */
 }
